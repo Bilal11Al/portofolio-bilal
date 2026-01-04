@@ -87,22 +87,28 @@ const dataTech = [
   {
     tech: "phpbr.png",
   },
+  {
+    tech: "laravel.png",
+  },
+  {
+    tech: "tailwind-removebg-preview.png",
+  },
 ];
 
 const dataEdu = [
   {
     namaSekolah: "SMPN 192 JAKARTA",
     jurusan: "",
-    gambarSekolah: "img",
+    gambarSekolah: "smpn.png",
     tahun: "2019-2021",
     nilaiRata: "blm",
   },
   {
     namaSekolah: "SMK INSAN MULIA INFORMATIKA",
     jurusan: "Multimedid",
-    gambarSekolah: "img",
+    gambarSekolah: "smk.png",
     tahun: "2021-2024",
-    nilaiRata: "blm",
+    nilaiRata: "82.85",
   },
 ];
 

@@ -165,13 +165,13 @@ function createEducation() {
               <h1 class="text-md font-bold">${item.namaSekolah}</h1>
               <h1 class="text-sm">${item.jurusan}</h1>
           </div>
-          <img class="p-2 h-20 w-20 rounded-full text-center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_of_Ministry_of_Education_and_Culture_of_Republic_of_Indonesia.svg/2048px-Logo_of_Ministry_of_Education_and_Culture_of_Republic_of_Indonesia.svg.png" alt="Blm ada gambar">
+          <img class="p-2 h-20 w-20 rounded-full text-center" src="./src/img/cv/${item.gambarSekolah}" alt="Blm ada gambar">
       </div>
       <div class="bg-black p-1 px-5 md:px-10">
           <h1 class="text-start font-medium text-white">${item.tahun}</h1>
       </div>
       <div class="p-1 text-start mt-2 px-5 md:px-10">
-          <h1>Nilai Rata-Rata : </h1>
+          <h1>Nilai Rata-Rata :${item.nilaiRata} </h1>
       </div>
   </div>
     `;
