@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Bilal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/output.css">
+
+
+</head>
+
+<body>
+    <div class="min-h-screen w-full bg-black text-white dark:bg-white dark:text-black font-[Montserrat] ">
+        <nav
+            class="p-5 flex flex-col md:flex-row justify-between items-center gap-4 md:px-20 sticky top-0 bg-black dark:bg-white ">
+            <div class="flex justify-center items-center">
+                <div class="flex md:hidden  absolute">
+                    <div class="relative right-37.5 bottom-10 top-0 side-bar cursor-pointer">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <div class="text-3xl font-bold tracking-tighter md:text-2xl">
+                    BILAL<span class="text-blue-600 dark:text-blue-300">.</span>
+                </div>
+            </div>
+            <ul class="flex gap-10 ">
+                <div class="relative bottom-11 left-30 md:bottom-0 md:left-0 md:ight-2.5">
+                    <button class="text-md btn absolute"><i id="icon" class="fa-solid fa-moon"></i></button>
+                </div>
+                <div class="hidden gap-6 items-center font-medium text-sm md:text-base md:flex ">
+                    <li><a href="#about"
+                            class="hover:text-blue-300 transition-colors underline-offset-8 hover:underline decoration-blue-300">Tentang</a>
+                    </li>
+                    <li><a href="#project"
+                            class="hover:text-blue-300 transition-colors underline-offset-8 hover:underline decoration-blue-300">Projek</a>
+                    </li>
+                    <li><a href="#education"
+                            class="hover:text-blue-300 transition-colors underline-offset-8 hover:underline decoration-blue-300">Pendidikan</a>
+                    </li>
+                    <li><a href="#experience"
+                            class="hover:text-blue-300 transition-colors underline-offset-8 hover:underline decoration-blue-300">Pengalaman</a>
+                    </li>
+                    <li><a href="#contact"
+                            class="hover:text-blue-300 transition-colors underline-offset-8 hover:underline decoration-blue-300">Kontak</a>
+                    </li>
+                </div>
+
+            </ul>
+        </nav>
+        <div id="sidebar" class="fixed inset-0 z-50 w-10 hidden">
+            <div class="bg-blue-900 dark:bg-blue-400 w-45 h-full">
+                <div class="relative mb-3 p-2">
+                    <h1 class="m-1 font-bold dark:text-black">Bilal</h1>
+                    <div class="absolute top-[2%] left-32 p-2">
+                        <span class="text-white text-1xl close"><i class="fa-solid fa-x"></i></span>
+                    </div>
+                </div>
+                <ul class="items-center font-medium text-sm  flex-col p-5">
+                    <li
+                        class="mb-2 bg-black  text-white drak:bg-white dark::text-black hover:bg-gray-800 p-2 text-center rounded-2xl">
+                        <a href="#about" class="text-1xl">Tentang</a>
+                    </li>
+                    <li
+                        class="mb-2 bg-black  text-white drak:bg-white dark::text-black hover:bg-gray-800 p-2 text-center rounded-2xl">
+                        <a href="#project" class="">Projek</a>
+                    </li>
+                    <li
+                        class="mb-2 bg-black  text-white drak:bg-white dark::text-black hover:bg-gray-800 p-2 text-center rounded-2xl">
+                        <a href="#education" class="">Pendidikan</a>
+                    </li>
+                    <li
+                        class="mb-2 bg-black  text-white drak:bg-white dark::text-black hover:bg-gray-800 p-2 text-center rounded-2xl">
+                        <a href="#experience" class="">Pengalaman</a>
+                    </li>
+                    <li
+                        class="mb-2 bg-black  text-white drak:bg-white dark::text-black hover:bg-gray-800 p-2 text-center rounded-2xl">
+                        <a href="#contact" class="">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="mt-10 md:mt-20 px-6 md:px-20" id="about">
+            <div class="flex flex-col-reverse md:flex-row justify-between items-center gap-12">
+                <div class="flex-1 text-center md:text-left">
+                    <h1 class="font-bold text-3xl md:text-5xl mb-3 leading-tight">
+                        Hiii,<span class="text-indigo-500">Bilal Al Tintop</span>
+                    </h1>
+                    <p class="text-blue-400 font-semibold tracking-widest uppercase text-sm mb-4">
+                        Junior Web Developer
+                    </p>
+                    <p class="text-gray-400 leading-relaxed max-w-xl mx-auto md:mx-0 text-sm md:text-base">
+                        Saya memiliki ketertarikan dan minat karier di bidang desain grafis serta teknologi informasi.
+                        Saya berkomitmen untuk terus mengembangkan kemampuan desain visual dan kreativitas, serta siap
+                        berkontribusi dalam perusahaan di bidang media, kreatif, dan teknologi.
+                    </p>
+
+                    <div class="mt-8 flex flex-wrap justify-center md:justify-start gap-4">
+                        <a href="https://github.com/Bilal11Al"
+                            class="bg-blue-600 text-white px-6 py-3 rounded-full font-bold transition-all duration-300 hover:shadow-[0_0_25px_blue] hover:bg-blue-700">
+                            Link Github
+                        </a>
+                        <button id="download-cv"
+                            class="dark:bg-gray-400 dark:text-white bg-white text-black px-6 py-3 rounded-full font-bold transition-all duration-300 hover:bg-gray-200 dark:hover:bg-gray-700">
+                            Download CV
+                            </=>
+                    </div>
+                </div>
+                <div
+                    class="w-56 h-56 md:w-80 md:h-80 bg-blue-700 rounded-full p-1 shadow-[0_0_40px_blue] transition-transform duration-500 group-hover:scale-105">
+                    <img src="./src/img/cv/IMG_20240501_093603-removebg-preview__1___1_-removebg-preview.jpg"
+                        alt="Bilal Al Tintop" class="w-full h-full object-cover rounded-full">
+                </div>
+            </div>
+        </section>
+        <main class="mt-5 md:px-20 md:mt-10">
+            <div class="btn-switch flex md:flex justify-center items-center gap-4 md:gap-2 ">
+                <div class="mt-1">
+                    <button
+                        class="btn bg-blue-700 text-white p-2 m-1 text-sm md:p-3 md:m-2 rounded-lg md:rounded-full px-1 py1 md:px-6 md:py-3 md:text-1xl md:font-extrabold text-center hover:shadow-[0_0_25px_blue]"
+                        data-target="#project">Projek</button>
+                </div>
+                <div class="mt-1">
+                    <button
+                        class="btn bg-blue-700 text-white p-2 m-1 text-sm md:p-3 md:m-2 rounded-lg md:rounded-full px-1 py1 md:px-6 md:py-3 md:text-1xl md:font-extrabold text-center hover:shadow-[0_0_25px_blue]"
+                        data-target="#certificate">Sertifikat</button>
+                </div>
+                <div class="mt-1">
+                    <button
+                        class="btn bg-blue-700 text-white p-2 m-1 text-sm md:p-3 md:m-2 rounded-lg md:rounded-full px-1 py1 md:px-6 md:py-3 md:text-1xl md:font-extrabold text-center hover:shadow-[0_0_25px_blue]"
+                        data-target="#tech">Teknologi</button>
+                </div>
+            </div>
+
+            <div id="project" class="content mt-10">
+                <!-- di render dari javascript -->
+            </div>
+
+            <div id="certificate" class="content hidden mt-10">
+                <!-- di render dari javascript -->
+            </div>
+
+            <div id="tech" class="content hidden mt-10">
+
+            </div>
+        </main>
+
+        <section id="education" class="mt-10 md:mt-20 px-6 md:px-20">
+            <!-- dari javascript -->
+        </section>
+
+        <section id="experience" class="mt-10 md:mt-20 px-6 md:px-20">
+            <!-- muncul dari javascript -->
+        </section>
+        <section id="contact">
+            <div class="mt-10 md:mt-20 px-6 md:px-20">
+                <div class="bg-white text-black dark:text-white p-5 md:h-100 rounded-2xl dark:bg-gray-700">
+                    <div class="p-4 ">
+                        <h1 class=" text-3xl font-bold text-center">Informasi Kontak</h1>
+                        <div class="flex justify-between items-center mt-5">
+                            <div class="border-b-4 border-b-black dark:border-b-blue-500 p-1 w-20 md:w-50"></div>
+                            <div class="border-b-4 border-b-black dark:border-b-blue-500 p-1 w-20 md:w-50"></div>
+                        </div>
+                        <p class="mt-5 text-md text-justify md:text-lg">Jika Anda memiliki pertanyaan, saran, atau ingin
+                            mengetahui lebih lanjut tentang produk sepatu yang kami sediakan,
+                            silakan hubungi kami melalui informasi kontak di bawah ini</p>
+                        <div class="flex justify-between items-center mt-5">
+                            <div class="border-b-4 border-b-black dark:border-b-blue-500 p-1 w-20 md:w-50"></div>
+                            <div class="border-b-4 border-b-black dark:border-b-blue-500 p-1 w-20 md:w-50"></div>
+                        </div>
+                        <ul class="mt-3 text-md font-semibold">
+                            <li class="mb-2"><i class="fa-brands fa-instagram text-2xl"></i> @bilallllll_11</li>
+                            <li class="mb-2"><i class="fa-brands fa-whatsapp text-2xl"></i> +62897-9377-325</li>
+                            <li class="mb-2 text-sm"><i class="fa-solid fa-envelope text-2xl"></i> bilalaltintop28@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="mt-10 px-6">
+                <div class="bg-black dark:bg-white p-10">
+                    <div class="text-center">
+                        <h1 class="font-bold md:text-2xl"> &copy; 2026 Bilal al tintop</h1>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
